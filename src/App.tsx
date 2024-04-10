@@ -1,5 +1,11 @@
-function App() {
-  return <h1>Hello world</h1>
-}
+import { AttendeeList } from "./components/attendee-list";
+import { Header } from "./components/header";
 
-export default App
+export function App() {
+  return (
+    <div className="max-w-[1216] mx-auto">
+      <Header/>
+      <AttendeeList/>
+    </div>
+  )
+}

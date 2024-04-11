@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+**NLW Unite Participant Listing**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Animação](https://github.com/karGuimaraes/pass-in-web/assets/39937365/0d2ff366-7204-4ce7-9945-25d1679345dd)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um projeto desenvolvido durante o evento NLW Unite da Rocketseat, uma tela de listagem de participantes para um evento. Este README fornecerá uma visão geral do projeto, instruções de instalação e uso, bem como detalhes sobre as dependências utilizadas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Visão Geral
 
-- Configure the top-level `parserOptions` property like this:
+O projeto consiste em uma aplicação web que exibe uma lista de participantes para um evento. Utiliza tecnologias como React, Tailwind CSS e Day.js.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Instalação
+
+Para começar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em seu sistema. Em seguida, siga estas etapas:
+
+1. Clone este repositório para o seu ambiente local:
+
+   ```
+   git clone [https://github.com/seu-usuario/nlw-unite-participant-listing.git](https://github.com/karGuimaraes/pass-in-web.git)
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```
+   cd pass-in-web
+   ```
+
+3. Instale as dependências usando o npm:
+
+   ```
+   npm install
+   ```
+
+### Uso
+
+Após a instalação das dependências, você pode iniciar a aplicação localmente. Execute o seguinte comando:
+
+```
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Isso iniciará a aplicação em modo de desenvolvimento. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar a lista de participantes.

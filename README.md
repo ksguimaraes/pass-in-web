@@ -3,7 +3,7 @@
 ![Animação](https://github.com/karGuimaraes/pass-in-web/assets/39937365/0d2ff366-7204-4ce7-9945-25d1679345dd)
 
 
-Este é um projeto desenvolvido durante o evento NLW Unite da Rocketseat, uma tela de listagem de participantes para um evento. Este README fornecerá uma visão geral do projeto, instruções de instalação e uso, bem como detalhes sobre as dependências utilizadas.
+Este é um projeto desenvolvido durante o evento NLW Unite da Rocketseat, uma tela de listagem de participantes para um evento. Este README fornecerá uma visão geral do projeto, instruções de instalação e uso.
 
 ---
 

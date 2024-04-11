@@ -1,4 +1,4 @@
-**NLW Unite Participant Listing**
+# NLW Unite Participant Listing
 
 Este é um projeto desenvolvido durante o evento NLW Unite da Rocketseat, uma tela de listagem de participantes para um evento. Este README fornecerá uma visão geral do projeto, instruções de instalação e uso.
 

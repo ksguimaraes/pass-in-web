@@ -17,7 +17,7 @@ Para começar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado e
 1. Clone este repositório para o seu ambiente local:
 
    ```
-   git clone [https://github.com/karGuimaraes/pass-in-web.git]
+   git clone https://github.com/karGuimaraes/pass-in-web.git
    ```
 
 2. Navegue até o diretório do projeto:
